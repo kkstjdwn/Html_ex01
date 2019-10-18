@@ -3,22 +3,68 @@
 <head>
 <meta charset="UTF-8">
 <title>Home</title>
+<link href="css/reset.css" rel= "stylesheet">
+<link href="css/layout.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<h1>HOME</h1>
-	<ol>
+	<header>
+	<div class ="header">
+		<div class = "header_logo"><img alt="로고" src="images/common/logo.png"></div>
+	<ul class ="header_nav">
+			<li><a href="">AUDITION</a></li>
+			<li><a href="QnA/list.html">QnA</a></li>
+			<li>
+			<a href="Notice/list.html">NOTICE</a>
+			</li>
+			<li><a href="">COMPANY</a></li>
+	</ul>
+	<ul class ="header_subnav">
 		<li>
-		<a href="/Html_ex01/Notice/list.html">공지사항</a>
-		</li>
-		<li>
-		<a href="/Html_ex01/QnA/list.html">QnA</a>
-		</li>
-		<li>
-		<a href="/Html_ex01/Member/signIn.html">로그인</a>
-		</li>
-		<li>
-		<a href="/Html_ex01/Member/signUp.html">회원가입</a>
-		</li>
-	</ol>
+		JOIN</li>
+		<li>LOGIN</li>
+	</ul>
+	</div>
+	</header>
+	<section class ="main">섹션, div로 잡아도 됨</section>
+	<div class="aside">
+	<a href=""><i class="fa fa-twitter" style="font-size:30px"></i></a><br><br>
+	<a href=""><i class="fa fa-facebook" style="font-size: 30px"></i></a><br><br>
+	<a href=""><i class="fa fa-youtube" style="font-size: 30px"></i></a><br><br>
+	<a href=""><i class="material-icons" style="font-size: 30px">shopping_cart</i></a><br><br>
+	<a href=""><i class="material-icons" style="font-size: 30px">chat</i></a>
+	
+	</div>
+	<footer>
+		<div class="ft_menu">
+			<div class ="ft_logo"><img alt="하단로고" src="images/common/ft_logo.png"></div>
+			<div class ="ft_info">
+			<div class="f1">
+			<a href="">개인정보취급방침</a> |
+			<a href="">이용약관</a> |
+			<a href="">고객센터</a> /
+			<a href="">문의하기 (Customer Service)</a>
+			<br><br>
+		서울시 강남구 청담동 111 (주) FNC ENTERTAINMENT  |   TEL. 02) 517-5426   |  FAX. 02) 518-5428</div>
+			<div class="f2">COPYRIGHT © 2014 FNCENT.COM ALL RIGHT RESERVED</div>
+			</div>
+		<div class="ft_selecter">
+		<select>
+		<option selected="selected">FNC KINGDOM SITE</option>
+		<optgroup label="신기한 option 그룹"></optgroup>
+		<option>FNC JAPAN</option>
+		<option>FNC STORE</option>
+		<option>FNC FACEBOOK</option>
+		<option>FNC ACADEMY</option>
+		<option>FNC GLOBAL TRAINING CENTER</option>
+		<option>FNC NEOZ SCHOOL</option>
+		<option>LOVE FNC FOUNDATION</option>
+		
+		</select> 
+		</div>
+		</div>
+	</footer>
 </body>
 </html>

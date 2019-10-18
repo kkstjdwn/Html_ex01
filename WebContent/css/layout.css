@@ -1,0 +1,146 @@
+@charset "UTF-8";
+body{
+	background-color: whitesmoke;
+}
+
+/******************** 헤더 ***********************************/
+header {
+	width: 100%;
+	color: white;
+	/* background-color: black; */
+	background-image : url("../images/common/header_bg.png");
+	background-repeat : repeat-x;
+	height: 67px;
+	position: fixed;
+	top:0px;
+}
+
+.header{
+	margin : auto;
+	color : black;	
+	width : 920px;
+	height : 67px;
+	
+	overflow: hidden;
+	
+}
+.header_logo{
+	margin-top: 13px;
+	float: left;
+}
+.header_nav{
+	float: left;
+	margin-left: 160px;
+	margin-right: 100px;
+	
+}
+.header_nav > li { /* .header li */
+	
+	float: right;
+	line-height: 67px;
+	margin-left: 15px;	
+	font-weight: bold;
+	font-size: 13px;
+}
+.header_subnav{
+	float: right;
+}
+.header_subnav > li {
+	color : lightgray;
+	float : right;
+	line-height: 67px;
+	margin-left: 10px;
+	font-size: 10px;	
+}
+.header_nav a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.header_nav a:hover{
+	font-size:17px;
+	color : red;
+}
+/**************************************** 메인섹션 ************/
+.main{
+	background-image : url("../images/common/back.PNG");
+	clear : both;
+	width: 920px;
+	height: 840px;
+	margin: auto;
+	background-color: red;
+	color: white;
+	margin-top : 117px;
+	
+	
+	
+}
+/***************************사이드****************************/
+.aside{
+	
+	position: fixed;
+	top:250px;
+	right: 0px;
+}
+.aside > a >i{
+	color: red;
+	}
+/************ 푸터 *******************************************/
+footer{
+	font-family: Nanum Gothic;
+	width: 100%;
+	background-image : url("../images/common/header_bg.gif");
+	background-repeat : repeat;
+	margin-top :50px;
+	height: 132px;
+	text-align: center;
+	overflow: hidden;
+	
+	
+	
+}
+.ft_menu{
+	margin:auto;
+	width : 920px;
+	margin-top: 26px;
+}
+.ft_logo{
+	float: left;
+}
+.ft_info{
+	float: left;
+	margin-left: 30px;
+}
+.f1{
+	margin-top :10px;
+	margin :auto;
+	color: #a9a9a9;
+	font-weight:bold;
+	font-size: 11px;
+	text-align: left;
+	line-height: 13px;
+	
+}
+.f2{
+	margin :auto;
+	color: #717171;
+	font-size: 11px;
+	text-align: left;
+}
+.ft_selecter{
+	float: right;
+}
+select{
+	border-color : #4a4a4a;
+	background-color: #4a4a4a;
+	color: #a9a9a9;
+}
+select :hover{
+	color: blue;
+}
+.f1 >a{
+	color: #a9a9a9;
+	font-weight:bold;
+	font-size: 11px;
+	text-decoration: none;
+}
